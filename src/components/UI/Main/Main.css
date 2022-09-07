@@ -1,0 +1,11 @@
+
+main{
+    background-image: url('../../food-background.png');
+    background-position: center;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 95vh;
+   display: flex;
+   justify-content: center;
+   align-items: center  ;
+}
