@@ -5,7 +5,11 @@ const Card = (props) => {
     padding: "10px",
   };
 
-  return <div style={myStyle}>{props.children}</div>;
+  return (
+    <div style={myStyle} className={props.className}>
+      {props.children}
+    </div>
+  );
 };
 
 export default Card;

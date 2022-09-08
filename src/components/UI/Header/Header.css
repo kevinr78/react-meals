@@ -18,14 +18,9 @@ header{
     color: var(--black);
 }
 .view-cart-button{
-    padding: 6px;
+
     font-size: 20px;
-    font-weight: bold;
-    border-radius: inherit;
-    border: none;
-    outline: none;
-    border: 2px solid var(--off-white);
-    background-color: inherit;
+    
 }
 .view-cart-container span{
     font-size: 18px;

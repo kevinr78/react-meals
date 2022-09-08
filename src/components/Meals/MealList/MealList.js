@@ -27,9 +27,12 @@ const MealList = () => {
       price: 18.99,
     },
   ];
-  return DUMMY_MEALS.map(({ name, description, price }) => {
-    return <MealItem name={name} description={description} price={price} />;
+
+  return DUMMY_MEALS.map(({ id, name, description, price }) => {
+    return (
+      <MealItem key={id} name={name} description={description} price={price} />
+    );
   });
 };
 
-export default MealItem;
+export default MealList;

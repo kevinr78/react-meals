@@ -1,4 +1,5 @@
 import "../../../index.css";
+import Button from "../Button/Button";
 import "../Header/Header.css";
 
 const Header = () => {
@@ -9,7 +10,7 @@ const Header = () => {
       </div>
       <div className="view-cart-section">
         <div className="view-cart-container">
-          <button className="view-cart-button">View cart</button>
+          <Button className="view-cart-button">View cart</Button>
           <span className="cart-items-number">5</span>
         </div>
       </div>

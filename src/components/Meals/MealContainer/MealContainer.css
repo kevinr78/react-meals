@@ -1,0 +1,21 @@
+.food-list-container{
+    color: var(--black);
+    width: 55%;
+}
+.food-list{
+    list-style: none;
+    padding: 0px;
+    width: 100% ;
+    
+    
+}
+.food-list-header{
+    height: 30px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

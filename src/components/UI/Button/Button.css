@@ -1,0 +1,9 @@
+.button{
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    border: 2px solid var(--off-white);
+    background-color: var(--off-white);
+    padding: 6px;
+}

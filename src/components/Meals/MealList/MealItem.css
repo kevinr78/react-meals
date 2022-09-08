@@ -1,0 +1,47 @@
+ .meal-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--off-white);
+ }
+ .meal-content h2 {
+   margin:1.1rem 0;
+   
+ }
+ .meal-content p{
+    margin: 0 0 1.2rem 0;
+    font-weight: bold;
+}
+ .meal-quantity{
+   display: flex;
+   justify-content: center;
+ }
+.meal-quantity span,.meal-price{
+   font-size: 1.2rem;
+   font-weight: bold;
+   margin-right: 4px;
+}
+
+
+.meal-quantity input{
+   width: 40px;
+   outline: none;
+   border:  2px solid var(--off-white);
+   border-radius: 4px;
+}
+
+.meal-price-and-ATC-button{
+   display: flex;
+   align-items: flex-end;
+   margin-top: 10px;   
+}
+
+.add-to-cart{
+   margin-right: 5px;
+}
+.meal-price{
+  
+   margin-top: 10px;
+   margin-right: 10px;
+}
