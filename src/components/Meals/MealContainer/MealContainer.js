@@ -11,12 +11,6 @@ const MealContainer = () => {
       <ul className="food-list">
         <MealList />
       </ul>
-      <footer>
-        <div>
-          <h2>Total</h2>
-        </div>
-        <div className="total-meal-amount">Amount</div>
-      </footer>
     </Card>
   );
 };

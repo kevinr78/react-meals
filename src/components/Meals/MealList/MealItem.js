@@ -1,4 +1,3 @@
-import Button from "../../UI/Button/Button";
 import "./MealItem.css";
 
 const MealItem = ({ name, description, price }) => {
@@ -9,14 +8,20 @@ const MealItem = ({ name, description, price }) => {
         <p className="meal-description">{description}</p>
       </div>
       <div className="quantity-and-price-container">
-        <div className="meal-quantity">
-          <span>Quantity:</span>
-          <input type="number" name="meal-quantity-number" />
-        </div>
+        <form>
+          <div className="meal-quantity">
+            <label htmlFor="meal-quantity-number">Quantity:</label>
+            <input
+              type="number"
+              name="meal-quantity-number"
+              id="meal-quantity-number"
+            />
+          </div>
+        </form>
         <div className="meal-price-and-ATC-button">
           <div className="meal-price"> ${price}</div>
           <div className="add-to-cart">
-            <Button className="atc-button"> Add To Cart</Button>
+            <button className=" button atc-button"> Add To Cart</button>
           </div>
         </div>
       </div>

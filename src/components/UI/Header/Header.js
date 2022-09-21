@@ -1,8 +1,11 @@
 import "../../../index.css";
-import Button from "../Button/Button";
+import { useState } from "react";
 import "../Header/Header.css";
 
-const Header = () => {
+const Header = (props) => {
+  const toggleCart = (e) => {
+    props.displayModal();
+  };
   return (
     <header>
       <div className="app-logo">
@@ -10,7 +13,9 @@ const Header = () => {
       </div>
       <div className="view-cart-section">
         <div className="view-cart-container">
-          <Button className="view-cart-button">View cart</Button>
+          <button onClick={toggleCart} className="button view-cart-button">
+            View cart
+          </button>
           <span className="cart-items-number">5</span>
         </div>
       </div>

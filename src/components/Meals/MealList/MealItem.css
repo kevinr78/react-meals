@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--off-white);
+    border-bottom: 4px solid var(--black);
  }
  .meal-content h2 {
    margin:1.1rem 0;
@@ -17,7 +17,7 @@
    display: flex;
    justify-content: center;
  }
-.meal-quantity span,.meal-price{
+.meal-quantity label,.meal-price{
    font-size: 1.2rem;
    font-weight: bold;
    margin-right: 4px;
